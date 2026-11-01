@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## 🎬 PLAI — PLAINOW SI 편집봇
+[`editbot-brand/`](editbot-brand/) · PLAINOW 로고의 PL + AI 리본과 틸 키컬러를 그대로 쓴 편집봇 로고 (SVG)
+
+<img src="editbot-brand/plai-edit-horizontal.svg" width="360"/>
