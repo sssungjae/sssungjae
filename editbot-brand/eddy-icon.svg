@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10B981"/><stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+  <!-- antenna + spark -->
+  <line x1="60" y1="40" x2="60" y2="22" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+  <path d="M60 4 Q60 16 72 16 Q60 16 60 28 Q60 16 48 16 Q60 16 60 4Z" fill="#FACC15"/>
+  <!-- triangle head -->
+  <polygon points="44,46 44,130 128,88" fill="url(#hg)" stroke="url(#hg)" stroke-width="20" stroke-linejoin="round"/>
+  <!-- visor -->
+  <rect x="46" y="72" width="56" height="30" rx="15" fill="#0F172A"/>
+  <circle cx="64" cy="87" r="6" fill="#5EEAD4"/><circle cx="86" cy="87" r="6" fill="#5EEAD4"/>
+  <circle cx="66" cy="85" r="2" fill="#fff"/><circle cx="88" cy="85" r="2" fill="#fff"/>
+  <!-- scissor-cut accent -->
+  <g transform="translate(118 128) rotate(-20)">
+    <circle cx="0" cy="0" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/>
+    <circle cx="18" cy="0" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/>
+    <line x1="4" y1="-5" x2="22" y2="-24" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="14" y1="-5" x2="-4" y2="-24" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+</svg>

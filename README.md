@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## 🎬 PlayNow AI 편집봇 — 이름 & 로고 시안
+[`editbot-brand/`](editbot-brand/) · PLAI(추천) / NOVA / Eddy 3안 (SVG)
+
+<img src="editbot-brand/plai-lockup.svg" width="360"/>
