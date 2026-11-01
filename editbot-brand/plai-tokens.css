@@ -1,0 +1,39 @@
+/* PLAI (PLAINOW SI 편집봇) 디자인 토큰 — 대시보드 UI용 */
+:root {
+  /* 브랜드 키컬러: PLAINOW 로고의 AI 리본 틸 그라데이션 */
+  --plai-teal-900: #0C3532;
+  --plai-teal-800: #0F4A44;
+  --plai-teal-600: #2FA597;   /* primary */
+  --plai-teal-500: #3FB8A9;
+  --plai-teal-300: #7FE3D5;
+  --plai-teal-200: #A3F3E8;
+  --plai-glow:     #5FD3C4;
+  --plai-gradient: linear-gradient(90deg, #3FB8A9 0%, #7FE3D5 28%, #0C3532 45%, #2FA597 62%, #0F4A44 80%, #A3F3E8 100%);
+  --plai-gradient-soft: linear-gradient(135deg, #2FA597 0%, #7FE3D5 100%);
+
+  /* 뉴트럴: 로고는 검정/흰색 글자 — 다크 기본 */
+  --plai-ink:      #0A0A0A;
+  --plai-bg:       #0B1413;   /* 앱 배경 (아이콘 배경과 동일) */
+  --plai-surface:  #111C1B;
+  --plai-surface-2:#1624223;
+  --plai-border:   rgba(95, 211, 196, 0.18);
+  --plai-text:     #FFFFFF;
+  --plai-text-dim: rgba(255, 255, 255, 0.62);
+
+  /* 상태색 (틸과 겹치지 않게) */
+  --plai-success: #3FB8A9;
+  --plai-warning: #F5B841;
+  --plai-danger:  #F0606B;
+  --plai-info:    #7FE3D5;
+
+  /* 형태 */
+  --plai-radius-lg: 20px;
+  --plai-radius-md: 12px;
+  --plai-radius-sm: 8px;
+  --plai-shadow-glow: 0 0 0 1px rgba(95,211,196,.25), 0 0 24px rgba(95,211,196,.18);
+
+  /* 타이포: 로고는 굵은 확장형 산세리프 — 헤드라인은 넓고 굵게, 본문은 Pretendard */
+  --plai-font-display: "Krona One", "Michroma", "Pretendard", sans-serif;
+  --plai-font-body: "Pretendard", "Inter", "Noto Sans KR", sans-serif;
+  --plai-tracking-label: 0.18em;  /* "SI EDITOR · BY PLAINOW" 같은 라벨 */
+}
