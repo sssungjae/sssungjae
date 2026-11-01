@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-## 🎬 PlayNow AI 편집봇 — 이름 & 로고 시안
-[`editbot-brand/`](editbot-brand/) · PLAI(추천) / NOVA / Eddy 3안 (SVG)
+## 🎬 PLAI — PLAINOW SI 편집봇
+[`editbot-brand/`](editbot-brand/) · PLAINOW 로고의 PL + AI 리본과 틸 키컬러를 그대로 쓴 편집봇 로고 (SVG)
 
-<img src="editbot-brand/plai-lockup.svg" width="360"/>
+<img src="editbot-brand/plai-edit-horizontal.svg" width="360"/>

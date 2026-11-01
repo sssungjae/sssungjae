@@ -1,412 +1,270 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PlayNow AI 편집봇 — 이름 & 로고 시안</title>
-<style>
-*{box-sizing:border-box}body{margin:0;font-family:Pretendard,Inter,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;background:#F4F4F7;color:#111827}
-header{padding:48px 40px 16px;max-width:1180px;margin:auto}h1{margin:0 0 8px;font-size:32px;letter-spacing:-.5px}header p{margin:0;color:#6B7280}
-main{max-width:1180px;margin:auto;padding:16px 40px 64px;display:grid;gap:28px}
-.card{background:#fff;border-radius:24px;padding:28px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
-.head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}h2{margin:0;font-size:26px}
-.tag{font-size:13px;background:#EEF2FF;color:#4338CA;padding:4px 10px;border-radius:999px;font-weight:600}
-.sub{margin:4px 0 18px;color:#6B7280;font-weight:600;letter-spacing:.5px}
-.row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
-.tile{border-radius:18px;display:flex;align-items:center;justify-content:center;padding:18px;min-height:190px}
-.light{background:#FAFAFB;color:#0B1020;border:1px solid #EEE}.dark{background:#0B1020;color:#fff}
-.icon .s{width:150px;height:150px}.lock{min-height:140px}.lock .s{width:100%;max-width:440px;height:auto}
-.appicon{background:linear-gradient(135deg,#E5E7EB,#F9FAFB)}
-.app{width:150px;height:150px;border-radius:36px;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px rgba(0,0,0,.25)}
-.app .s{width:120px;height:120px}.app.plai,.app.nova{background:#0B1020}.app.eddy{background:#F8FAFC}
-.desc{line-height:1.7;color:#374151;margin:18px 0 12px}
-.swatches{display:flex;gap:8px}.sw{width:96px;height:40px;border-radius:10px;position:relative}.sw i{position:absolute;bottom:-20px;left:0;font-size:11px;color:#6B7280;font-style:normal}
-.note{max-width:1180px;margin:0 auto 60px;padding:0 40px;color:#6B7280;font-size:14px;line-height:1.7}
-@media(max-width:800px){.row,.row2{grid-template-columns:1fr}}
-</style></head><body>
-<header><h1>PlayNow AI 편집봇 — 이름 &amp; 로고 시안</h1>
-<p>공통 모티프: 플레이나우의 ▶ 재생 버튼 + SI(초지능) 시그널 + AI 편집자 상징</p></header>
-<main>
-<section class="card">
-  <div class="head"><h2>PLAI · 플라이</h2><span class="tag">추천 · 이름이 ‘플레이’로 읽혀서 브랜드와 바로 연결됨</span></div>
-  <p class="sub">Play + AI</p>
-  <div class="row">
-    <div class="tile light icon"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C3AED"/><stop offset="0.55" stop-color="#4F46E5"/><stop offset="1" stop-color="#06B6D4"/>
-    </linearGradient>
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#06B6D4" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0.2"/>
-    </linearGradient>
-  </defs>
-  <!-- SI orbit -->
-  <ellipse cx="80" cy="80" rx="70" ry="26" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-28 80 80)"/>
-  <circle cx="141" cy="47" r="5" fill="#22D3EE"/>
-  <!-- play triangle -->
-  <polygon points="52,38 52,122 120,80" fill="url(#pg)" stroke="url(#pg)" stroke-width="18" stroke-linejoin="round"/>
-  <!-- AI sparkle -->
-  <path d="M78 58 Q78 80 100 80 Q78 80 78 102 Q78 80 56 80 Q78 80 78 58Z" fill="#fff"/>
-  <path d="M100 52 Q100 60 108 60 Q100 60 100 68 Q100 60 92 60 Q100 60 100 52Z" fill="#fff" opacity="0.85"/>
-  <!-- edit cut marks -->
-  <rect x="34" y="136" width="30" height="5" rx="2.5" fill="#7C3AED"/>
-  <rect x="70" y="136" width="18" height="5" rx="2.5" fill="#4F46E5"/>
-  <rect x="94" y="136" width="30" height="5" rx="2.5" fill="#06B6D4"/>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PLAI — PLAINOW SI 편집봇 로고</title><style>
+*{box-sizing:border-box}body{margin:0;font-family:Pretendard,Inter,"Noto Sans KR",sans-serif;background:#EEF1F0;color:#0B1413}
+.wrap{max-width:1180px;margin:auto;padding:44px 36px 64px}h1{margin:0 0 6px;font-size:30px}.lead{color:#4B5B58;margin:0 0 26px;line-height:1.7}
+h2{font-size:15px;letter-spacing:2px;color:#2FA597;margin:34px 0 12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.tile{border-radius:20px;display:flex;align-items:center;justify-content:center;padding:34px;min-height:200px}
+.l{background:#fff;color:#0A0A0A}.d{background:#0B1413;color:#fff}.g{background:#666;color:#0A0A0A}
+.s{width:100%;height:auto}.w60 .s{max-width:420px}.w40 .s{max-width:300px}.ic .s{width:150px}
+.ref img{max-width:100%;border-radius:14px}
+.sw{display:flex;gap:10px;flex-wrap:wrap}.sw div{width:120px;height:56px;border-radius:12px;display:flex;align-items:flex-end;padding:6px 8px;font-size:11px;color:#fff;font-weight:600}
+.note{color:#4B5B58;font-size:14px;line-height:1.7;margin-top:28px}
+@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style></head><body><div class="wrap">
+<h1>PLAI — PLAINOW SI 편집봇</h1>
+<p class="lead">PLAINOW 로고의 <b>PL + AI 리본(✦)</b>을 그대로 가져와 편집봇 이름 <b>PLAI</b>로 만들었습니다. 회사 로고 <b>PLAI&nbsp;NOW.</b>와 짝을 이루는 <b>PLAI&nbsp;EDIT.</b> 구성이고, 키컬러는 로고의 틸 그라데이션을 그대로 씁니다.</p>
+<h2>REFERENCE · PLAINOW.</h2><div class="tile g ref"><img src="plainow-reference.png" alt="PLAINOW 로고 원본"></div>
+<h2>STACKED · PLAI / EDIT.</h2><div class="grid"><div class="tile l w40"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 101" data-w="708" data-h="404">
+<defs>
+  <linearGradient id="plai-rib" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="160" y2="0">
+    <stop offset="0" stop-color="#3FB8A9"/><stop offset="0.28" stop-color="#7FE3D5"/>
+    <stop offset="0.45" stop-color="#0C3532"/><stop offset="0.62" stop-color="#2FA597"/>
+    <stop offset="0.8" stop-color="#0F4A44"/><stop offset="1" stop-color="#A3F3E8"/>
+  </linearGradient>
+  <filter id="plai-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+    <feFlood flood-color="#5FD3C4" flood-opacity="0.55"/><feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path transform="translate(5 5)" fill-rule="evenodd" d="M0 0H40Q44 0 44 4V25Q44 29 40 29H11V39H0Z M11 10V19H33V10Z"/>
+<path transform="translate(54 5)" fill-rule="evenodd" d="M0 0H11V29H39V39H0Z"/></g>
+<g transform="translate(5 5)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g>
+<g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" transform="translate(5 57)"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H40V10H11V15H37V24H11V29H40V39H0Z"/>
+<path transform="translate(45 0)" fill-rule="evenodd" d="M0 0H34Q44 0 44 10V29Q44 39 34 39H0Z M11 10V29H31Q33 29 33 27V12Q33 10 31 10Z"/>
+<path transform="translate(94 0)" fill-rule="evenodd" d="M0 0H11V39H0Z"/>
+<path transform="translate(110 0)" fill-rule="evenodd" d="M0 0H40V10H25.5V39H14.5V10H0Z"/>
+<circle cx="161" cy="33" r="6"/></g>
 </svg>
-</div>
-    <div class="tile dark icon"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C3AED"/><stop offset="0.55" stop-color="#4F46E5"/><stop offset="1" stop-color="#06B6D4"/>
-    </linearGradient>
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#06B6D4" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0.2"/>
-    </linearGradient>
-  </defs>
-  <!-- SI orbit -->
-  <ellipse cx="80" cy="80" rx="70" ry="26" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-28 80 80)"/>
-  <circle cx="141" cy="47" r="5" fill="#22D3EE"/>
-  <!-- play triangle -->
-  <polygon points="52,38 52,122 120,80" fill="url(#pg)" stroke="url(#pg)" stroke-width="18" stroke-linejoin="round"/>
-  <!-- AI sparkle -->
-  <path d="M78 58 Q78 80 100 80 Q78 80 78 102 Q78 80 56 80 Q78 80 78 58Z" fill="#fff"/>
-  <path d="M100 52 Q100 60 108 60 Q100 60 100 68 Q100 60 92 60 Q100 60 100 52Z" fill="#fff" opacity="0.85"/>
-  <!-- edit cut marks -->
-  <rect x="34" y="136" width="30" height="5" rx="2.5" fill="#7C3AED"/>
-  <rect x="70" y="136" width="18" height="5" rx="2.5" fill="#4F46E5"/>
-  <rect x="94" y="136" width="30" height="5" rx="2.5" fill="#06B6D4"/>
-</svg>
-</div>
-    <div class="tile appicon"><div class="app plai"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C3AED"/><stop offset="0.55" stop-color="#4F46E5"/><stop offset="1" stop-color="#06B6D4"/>
-    </linearGradient>
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#06B6D4" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0.2"/>
-    </linearGradient>
-  </defs>
-  <!-- SI orbit -->
-  <ellipse cx="80" cy="80" rx="70" ry="26" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-28 80 80)"/>
-  <circle cx="141" cy="47" r="5" fill="#22D3EE"/>
-  <!-- play triangle -->
-  <polygon points="52,38 52,122 120,80" fill="url(#pg)" stroke="url(#pg)" stroke-width="18" stroke-linejoin="round"/>
-  <!-- AI sparkle -->
-  <path d="M78 58 Q78 80 100 80 Q78 80 78 102 Q78 80 56 80 Q78 80 78 58Z" fill="#fff"/>
-  <path d="M100 52 Q100 60 108 60 Q100 60 100 68 Q100 60 92 60 Q100 60 100 52Z" fill="#fff" opacity="0.85"/>
-  <!-- edit cut marks -->
-  <rect x="34" y="136" width="30" height="5" rx="2.5" fill="#7C3AED"/>
-  <rect x="70" y="136" width="18" height="5" rx="2.5" fill="#4F46E5"/>
-  <rect x="94" y="136" width="30" height="5" rx="2.5" fill="#06B6D4"/>
+</div><div class="tile d w40"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 101" data-w="708" data-h="404">
+<defs>
+  <linearGradient id="plai-rib" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="160" y2="0">
+    <stop offset="0" stop-color="#3FB8A9"/><stop offset="0.28" stop-color="#7FE3D5"/>
+    <stop offset="0.45" stop-color="#0C3532"/><stop offset="0.62" stop-color="#2FA597"/>
+    <stop offset="0.8" stop-color="#0F4A44"/><stop offset="1" stop-color="#A3F3E8"/>
+  </linearGradient>
+  <filter id="plai-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+    <feFlood flood-color="#5FD3C4" flood-opacity="0.55"/><feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path transform="translate(5 5)" fill-rule="evenodd" d="M0 0H40Q44 0 44 4V25Q44 29 40 29H11V39H0Z M11 10V19H33V10Z"/>
+<path transform="translate(54 5)" fill-rule="evenodd" d="M0 0H11V29H39V39H0Z"/></g>
+<g transform="translate(5 5)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g>
+<g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" transform="translate(5 57)"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H40V10H11V15H37V24H11V29H40V39H0Z"/>
+<path transform="translate(45 0)" fill-rule="evenodd" d="M0 0H34Q44 0 44 10V29Q44 39 34 39H0Z M11 10V29H31Q33 29 33 27V12Q33 10 31 10Z"/>
+<path transform="translate(94 0)" fill-rule="evenodd" d="M0 0H11V39H0Z"/>
+<path transform="translate(110 0)" fill-rule="evenodd" d="M0 0H40V10H25.5V39H14.5V10H0Z"/>
+<circle cx="161" cy="33" r="6"/></g>
 </svg>
 </div></div>
-  </div>
-  <div class="row2">
-    <div class="tile light lock"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" width="560" height="160">
-  <defs>
-    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C3AED"/><stop offset="0.55" stop-color="#4F46E5"/><stop offset="1" stop-color="#06B6D4"/>
-    </linearGradient>
-    <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/>
-    </linearGradient>
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#06B6D4" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0.2"/>
-    </linearGradient>
-  </defs>
-  <g>
-    <ellipse cx="80" cy="80" rx="70" ry="26" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-28 80 80)"/>
-    <circle cx="141" cy="47" r="5" fill="#22D3EE"/>
-    <polygon points="52,38 52,122 120,80" fill="url(#pg)" stroke="url(#pg)" stroke-width="18" stroke-linejoin="round"/>
-    <path d="M78 58 Q78 80 100 80 Q78 80 78 102 Q78 80 56 80 Q78 80 78 58Z" fill="#fff"/>
-    <path d="M100 52 Q100 60 108 60 Q100 60 100 68 Q100 60 92 60 Q100 60 100 52Z" fill="#fff" opacity="0.85"/>
-  </g>
-  <text x="178" y="98" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-2" fill="currentColor">PL<tspan fill="url(#tg)">AI</tspan></text>
-  <text x="182" y="130" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="currentColor" opacity="0.6">PLAYNOW SI EDITOR</text>
+<h2>HORIZONTAL · PLAI EDIT.</h2><div class="grid"><div class="tile l w60"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 355 49" data-w="1420" data-h="196">
+<defs>
+  <linearGradient id="plai-rib" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="160" y2="0">
+    <stop offset="0" stop-color="#3FB8A9"/><stop offset="0.28" stop-color="#7FE3D5"/>
+    <stop offset="0.45" stop-color="#0C3532"/><stop offset="0.62" stop-color="#2FA597"/>
+    <stop offset="0.8" stop-color="#0F4A44"/><stop offset="1" stop-color="#A3F3E8"/>
+  </linearGradient>
+  <filter id="plai-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+    <feFlood flood-color="#5FD3C4" flood-opacity="0.55"/><feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path transform="translate(5 5)" fill-rule="evenodd" d="M0 0H40Q44 0 44 4V25Q44 29 40 29H11V39H0Z M11 10V19H33V10Z"/>
+<path transform="translate(54 5)" fill-rule="evenodd" d="M0 0H11V29H39V39H0Z"/></g>
+<g transform="translate(5 5)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g>
+<g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" transform="translate(183 5)"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H40V10H11V15H37V24H11V29H40V39H0Z"/>
+<path transform="translate(45 0)" fill-rule="evenodd" d="M0 0H34Q44 0 44 10V29Q44 39 34 39H0Z M11 10V29H31Q33 29 33 27V12Q33 10 31 10Z"/>
+<path transform="translate(94 0)" fill-rule="evenodd" d="M0 0H11V39H0Z"/>
+<path transform="translate(110 0)" fill-rule="evenodd" d="M0 0H40V10H25.5V39H14.5V10H0Z"/>
+<circle cx="161" cy="33" r="6"/></g>
 </svg>
-</div>
-    <div class="tile dark lock"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" width="560" height="160">
-  <defs>
-    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C3AED"/><stop offset="0.55" stop-color="#4F46E5"/><stop offset="1" stop-color="#06B6D4"/>
-    </linearGradient>
-    <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/>
-    </linearGradient>
-    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#06B6D4" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0.2"/>
-    </linearGradient>
-  </defs>
-  <g>
-    <ellipse cx="80" cy="80" rx="70" ry="26" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-28 80 80)"/>
-    <circle cx="141" cy="47" r="5" fill="#22D3EE"/>
-    <polygon points="52,38 52,122 120,80" fill="url(#pg)" stroke="url(#pg)" stroke-width="18" stroke-linejoin="round"/>
-    <path d="M78 58 Q78 80 100 80 Q78 80 78 102 Q78 80 56 80 Q78 80 78 58Z" fill="#fff"/>
-    <path d="M100 52 Q100 60 108 60 Q100 60 100 68 Q100 60 92 60 Q100 60 100 52Z" fill="#fff" opacity="0.85"/>
-  </g>
-  <text x="178" y="98" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-2" fill="currentColor">PL<tspan fill="url(#tg)">AI</tspan></text>
-  <text x="182" y="130" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="currentColor" opacity="0.6">PLAYNOW SI EDITOR</text>
-</svg>
-</div>
-  </div>
-  <p class="desc">플레이나우의 ‘재생(▶)’ 버튼 안에 AI 스파크(✦)를 넣고, 바깥을 감싸는 궤도 링으로 ‘초지능(SI)’이 영상을 내려다보며 편집한다는 느낌을 줬습니다. 아래 컷 바는 타임라인 편집 구간입니다.</p>
-  <div class="swatches"><span class="sw" style="background:#7C3AED"><i>#7C3AED</i></span><span class="sw" style="background:#4F46E5"><i>#4F46E5</i></span><span class="sw" style="background:#06B6D4"><i>#06B6D4</i></span></div>
-</section>
-<section class="card">
-  <div class="head"><h2>NOVA · 노바</h2><span class="tag">SI·하이테크 느낌 최강</span></div>
-  <p class="sub">Now · Omni · Video · Agent</p>
-  <div class="row">
-    <div class="tile light icon"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#fff"/><stop offset="0.35" stop-color="#FDE68A"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#F59E0B"/>
-    </linearGradient>
-  </defs>
-  <!-- play triangle as neural network -->
-  <g stroke="url(#edge)" stroke-linecap="round" fill="none">
-    <polygon points="44,30 44,130 132,80" stroke-width="7" stroke-linejoin="round"/>
-    <g stroke-width="2.5" opacity="0.75">
-      <line x1="44" y1="30" x2="76" y2="80"/><line x1="44" y1="130" x2="76" y2="80"/><line x1="132" y1="80" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="76" y2="80"/><line x1="88" y1="55" x2="76" y2="80"/><line x1="88" y1="105" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="88" y2="55"/><line x1="44" y1="80" x2="88" y2="105"/>
-    </g>
-  </g>
-  <g fill="#F43F5E">
-    <circle cx="44" cy="30" r="7"/><circle cx="44" cy="130" r="7"/><circle cx="132" cy="80" r="7" fill="#F59E0B"/>
-    <circle cx="44" cy="80" r="5"/><circle cx="88" cy="55" r="5" fill="#FB7185"/><circle cx="88" cy="105" r="5" fill="#FB923C"/>
-  </g>
-  <!-- nova core -->
-  <circle cx="76" cy="80" r="22" fill="url(#core)"/>
-  <path d="M76 64 Q76 80 92 80 Q76 80 76 96 Q76 80 60 80 Q76 80 76 64Z" fill="#fff"/>
-</svg>
-</div>
-    <div class="tile dark icon"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#fff"/><stop offset="0.35" stop-color="#FDE68A"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#F59E0B"/>
-    </linearGradient>
-  </defs>
-  <!-- play triangle as neural network -->
-  <g stroke="url(#edge)" stroke-linecap="round" fill="none">
-    <polygon points="44,30 44,130 132,80" stroke-width="7" stroke-linejoin="round"/>
-    <g stroke-width="2.5" opacity="0.75">
-      <line x1="44" y1="30" x2="76" y2="80"/><line x1="44" y1="130" x2="76" y2="80"/><line x1="132" y1="80" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="76" y2="80"/><line x1="88" y1="55" x2="76" y2="80"/><line x1="88" y1="105" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="88" y2="55"/><line x1="44" y1="80" x2="88" y2="105"/>
-    </g>
-  </g>
-  <g fill="#F43F5E">
-    <circle cx="44" cy="30" r="7"/><circle cx="44" cy="130" r="7"/><circle cx="132" cy="80" r="7" fill="#F59E0B"/>
-    <circle cx="44" cy="80" r="5"/><circle cx="88" cy="55" r="5" fill="#FB7185"/><circle cx="88" cy="105" r="5" fill="#FB923C"/>
-  </g>
-  <!-- nova core -->
-  <circle cx="76" cy="80" r="22" fill="url(#core)"/>
-  <path d="M76 64 Q76 80 92 80 Q76 80 76 96 Q76 80 60 80 Q76 80 76 64Z" fill="#fff"/>
-</svg>
-</div>
-    <div class="tile appicon"><div class="app nova"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#fff"/><stop offset="0.35" stop-color="#FDE68A"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#F59E0B"/>
-    </linearGradient>
-  </defs>
-  <!-- play triangle as neural network -->
-  <g stroke="url(#edge)" stroke-linecap="round" fill="none">
-    <polygon points="44,30 44,130 132,80" stroke-width="7" stroke-linejoin="round"/>
-    <g stroke-width="2.5" opacity="0.75">
-      <line x1="44" y1="30" x2="76" y2="80"/><line x1="44" y1="130" x2="76" y2="80"/><line x1="132" y1="80" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="76" y2="80"/><line x1="88" y1="55" x2="76" y2="80"/><line x1="88" y1="105" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="88" y2="55"/><line x1="44" y1="80" x2="88" y2="105"/>
-    </g>
-  </g>
-  <g fill="#F43F5E">
-    <circle cx="44" cy="30" r="7"/><circle cx="44" cy="130" r="7"/><circle cx="132" cy="80" r="7" fill="#F59E0B"/>
-    <circle cx="44" cy="80" r="5"/><circle cx="88" cy="55" r="5" fill="#FB7185"/><circle cx="88" cy="105" r="5" fill="#FB923C"/>
-  </g>
-  <!-- nova core -->
-  <circle cx="76" cy="80" r="22" fill="url(#core)"/>
-  <path d="M76 64 Q76 80 92 80 Q76 80 76 96 Q76 80 60 80 Q76 80 76 64Z" fill="#fff"/>
+</div><div class="tile d w60"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 355 49" data-w="1420" data-h="196">
+<defs>
+  <linearGradient id="plai-rib" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="160" y2="0">
+    <stop offset="0" stop-color="#3FB8A9"/><stop offset="0.28" stop-color="#7FE3D5"/>
+    <stop offset="0.45" stop-color="#0C3532"/><stop offset="0.62" stop-color="#2FA597"/>
+    <stop offset="0.8" stop-color="#0F4A44"/><stop offset="1" stop-color="#A3F3E8"/>
+  </linearGradient>
+  <filter id="plai-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+    <feFlood flood-color="#5FD3C4" flood-opacity="0.55"/><feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path transform="translate(5 5)" fill-rule="evenodd" d="M0 0H40Q44 0 44 4V25Q44 29 40 29H11V39H0Z M11 10V19H33V10Z"/>
+<path transform="translate(54 5)" fill-rule="evenodd" d="M0 0H11V29H39V39H0Z"/></g>
+<g transform="translate(5 5)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g>
+<g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" transform="translate(183 5)"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H40V10H11V15H37V24H11V29H40V39H0Z"/>
+<path transform="translate(45 0)" fill-rule="evenodd" d="M0 0H34Q44 0 44 10V29Q44 39 34 39H0Z M11 10V29H31Q33 29 33 27V12Q33 10 31 10Z"/>
+<path transform="translate(94 0)" fill-rule="evenodd" d="M0 0H11V39H0Z"/>
+<path transform="translate(110 0)" fill-rule="evenodd" d="M0 0H40V10H25.5V39H14.5V10H0Z"/>
+<circle cx="161" cy="33" r="6"/></g>
 </svg>
 </div></div>
-  </div>
-  <div class="row2">
-    <div class="tile light lock"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" width="560" height="160">
-  <defs>
-    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#fff"/><stop offset="0.35" stop-color="#FDE68A"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#F59E0B"/>
-    </linearGradient>
-  </defs>
-  <g stroke="url(#edge)" stroke-linecap="round" fill="none">
-    <polygon points="44,30 44,130 132,80" stroke-width="7" stroke-linejoin="round"/>
-    <g stroke-width="2.5" opacity="0.75">
-      <line x1="44" y1="30" x2="76" y2="80"/><line x1="44" y1="130" x2="76" y2="80"/><line x1="132" y1="80" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="76" y2="80"/><line x1="88" y1="55" x2="76" y2="80"/><line x1="88" y1="105" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="88" y2="55"/><line x1="44" y1="80" x2="88" y2="105"/>
-    </g>
-  </g>
-  <g fill="#F43F5E">
-    <circle cx="44" cy="30" r="7"/><circle cx="44" cy="130" r="7"/><circle cx="132" cy="80" r="7" fill="#F59E0B"/>
-    <circle cx="44" cy="80" r="5"/><circle cx="88" cy="55" r="5" fill="#FB7185"/><circle cx="88" cy="105" r="5" fill="#FB923C"/>
-  </g>
-  <circle cx="76" cy="80" r="22" fill="url(#core)"/>
-  <path d="M76 64 Q76 80 92 80 Q76 80 76 96 Q76 80 60 80 Q76 80 76 64Z" fill="#fff"/>
-  <text x="170" y="98" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="6" fill="currentColor">N<tspan fill="url(#edge)">O</tspan>VA</text>
-  <text x="174" y="130" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="currentColor" opacity="0.6">NOW · OMNI · VIDEO · AGENT</text>
+<h2>SYMBOL + WORDMARK</h2><div class="grid"><div class="tile l w60"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" data-w="960" data-h="240">
+<defs>
+  <linearGradient id="plai-rib" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="160" y2="0">
+    <stop offset="0" stop-color="#3FB8A9"/><stop offset="0.28" stop-color="#7FE3D5"/>
+    <stop offset="0.45" stop-color="#0C3532"/><stop offset="0.62" stop-color="#2FA597"/>
+    <stop offset="0.8" stop-color="#0F4A44"/><stop offset="1" stop-color="#A3F3E8"/>
+  </linearGradient>
+  <filter id="plai-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+    <feFlood flood-color="#5FD3C4" flood-opacity="0.55"/><feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<g transform="translate(0 0) scale(0.5)"><rect x="0.5" y="0.5" width="119" height="119" rx="28" fill="#0B1413" stroke="#5FD3C4" stroke-opacity="0.35"/>
+<ellipse cx="60" cy="50" rx="50" ry="15" fill="none" stroke="#5FD3C4" stroke-opacity="0.45" stroke-width="1.6" transform="rotate(-16 60 50)"/>
+<circle cx="106" cy="35" r="3" fill="#A3F3E8"/>
+<g transform="translate(-73 30) scale(1.05)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g>
+<g>
+  <rect x="22" y="90" width="28" height="5" rx="2.5" fill="#2FA597"/>
+  <rect x="54" y="90" width="16" height="5" rx="2.5" fill="#7FE3D5"/>
+  <rect x="74" y="90" width="24" height="5" rx="2.5" fill="#2FA597"/>
+  <rect x="61" y="84" width="2.4" height="17" rx="1.2" fill="#FFFFFF"/>
+  <path d="M58.2 82 H66.2 L62.2 86.5Z" fill="#FFFFFF"/>
+</g></g>
+<g transform="translate(72 4)"><g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H40Q44 0 44 4V25Q44 29 40 29H11V39H0Z M11 10V19H33V10Z"/>
+<path transform="translate(49 0)" fill-rule="evenodd" d="M0 0H11V29H39V39H0Z"/></g>
+<g transform="translate(0 0)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g></g>
+<text x="73" y="57" font-family="Pretendard,Inter,'Helvetica Neue',Arial,sans-serif" font-size="8.2" font-weight="700" letter-spacing="3.1" fill="currentColor" opacity="0.65">SI EDITOR · BY PLAINOW.</text>
 </svg>
-</div>
-    <div class="tile dark lock"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" width="560" height="160">
-  <defs>
-    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#fff"/><stop offset="0.35" stop-color="#FDE68A"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#F59E0B"/>
-    </linearGradient>
-  </defs>
-  <g stroke="url(#edge)" stroke-linecap="round" fill="none">
-    <polygon points="44,30 44,130 132,80" stroke-width="7" stroke-linejoin="round"/>
-    <g stroke-width="2.5" opacity="0.75">
-      <line x1="44" y1="30" x2="76" y2="80"/><line x1="44" y1="130" x2="76" y2="80"/><line x1="132" y1="80" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="76" y2="80"/><line x1="88" y1="55" x2="76" y2="80"/><line x1="88" y1="105" x2="76" y2="80"/>
-      <line x1="44" y1="80" x2="88" y2="55"/><line x1="44" y1="80" x2="88" y2="105"/>
-    </g>
-  </g>
-  <g fill="#F43F5E">
-    <circle cx="44" cy="30" r="7"/><circle cx="44" cy="130" r="7"/><circle cx="132" cy="80" r="7" fill="#F59E0B"/>
-    <circle cx="44" cy="80" r="5"/><circle cx="88" cy="55" r="5" fill="#FB7185"/><circle cx="88" cy="105" r="5" fill="#FB923C"/>
-  </g>
-  <circle cx="76" cy="80" r="22" fill="url(#core)"/>
-  <path d="M76 64 Q76 80 92 80 Q76 80 76 96 Q76 80 60 80 Q76 80 76 64Z" fill="#fff"/>
-  <text x="170" y="98" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="6" fill="currentColor">N<tspan fill="url(#edge)">O</tspan>VA</text>
-  <text x="174" y="130" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="currentColor" opacity="0.6">NOW · OMNI · VIDEO · AGENT</text>
-</svg>
-</div>
-  </div>
-  <p class="desc">재생 버튼 자체를 신경망(뉴런 노드 + 시냅스)으로 그리고, 중앙에서 별이 폭발하듯 빛나는 코어로 ‘초지능의 탄생’을 표현했습니다. 가장 SI 느낌이 강한 안입니다.</p>
-  <div class="swatches"><span class="sw" style="background:#F43F5E"><i>#F43F5E</i></span><span class="sw" style="background:#F97316"><i>#F97316</i></span><span class="sw" style="background:#F59E0B"><i>#F59E0B</i></span></div>
-</section>
-<section class="card">
-  <div class="head"><h2>Eddy · 에디</h2><span class="tag">친근함·캐릭터 활용도 최고</span></div>
-  <p class="sub">Edit + Buddy</p>
-  <div class="row">
-    <div class="tile light icon"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10B981"/><stop offset="1" stop-color="#0EA5E9"/>
-    </linearGradient>
-  </defs>
-  <!-- antenna + spark -->
-  <line x1="60" y1="40" x2="60" y2="22" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
-  <path d="M60 4 Q60 16 72 16 Q60 16 60 28 Q60 16 48 16 Q60 16 60 4Z" fill="#FACC15"/>
-  <!-- triangle head -->
-  <polygon points="44,46 44,130 128,88" fill="url(#hg)" stroke="url(#hg)" stroke-width="20" stroke-linejoin="round"/>
-  <!-- visor -->
-  <rect x="46" y="72" width="56" height="30" rx="15" fill="#0F172A"/>
-  <circle cx="64" cy="87" r="6" fill="#5EEAD4"/><circle cx="86" cy="87" r="6" fill="#5EEAD4"/>
-  <circle cx="66" cy="85" r="2" fill="#fff"/><circle cx="88" cy="85" r="2" fill="#fff"/>
-  <!-- scissor-cut accent -->
-  <g transform="translate(118 128) rotate(-20)">
-    <circle cx="0" cy="0" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/>
-    <circle cx="18" cy="0" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/>
-    <line x1="4" y1="-5" x2="22" y2="-24" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
-    <line x1="14" y1="-5" x2="-4" y2="-24" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
-  </g>
-</svg>
-</div>
-    <div class="tile dark icon"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10B981"/><stop offset="1" stop-color="#0EA5E9"/>
-    </linearGradient>
-  </defs>
-  <!-- antenna + spark -->
-  <line x1="60" y1="40" x2="60" y2="22" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
-  <path d="M60 4 Q60 16 72 16 Q60 16 60 28 Q60 16 48 16 Q60 16 60 4Z" fill="#FACC15"/>
-  <!-- triangle head -->
-  <polygon points="44,46 44,130 128,88" fill="url(#hg)" stroke="url(#hg)" stroke-width="20" stroke-linejoin="round"/>
-  <!-- visor -->
-  <rect x="46" y="72" width="56" height="30" rx="15" fill="#0F172A"/>
-  <circle cx="64" cy="87" r="6" fill="#5EEAD4"/><circle cx="86" cy="87" r="6" fill="#5EEAD4"/>
-  <circle cx="66" cy="85" r="2" fill="#fff"/><circle cx="88" cy="85" r="2" fill="#fff"/>
-  <!-- scissor-cut accent -->
-  <g transform="translate(118 128) rotate(-20)">
-    <circle cx="0" cy="0" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/>
-    <circle cx="18" cy="0" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/>
-    <line x1="4" y1="-5" x2="22" y2="-24" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
-    <line x1="14" y1="-5" x2="-4" y2="-24" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
-  </g>
-</svg>
-</div>
-    <div class="tile appicon"><div class="app eddy"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
-  <defs>
-    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10B981"/><stop offset="1" stop-color="#0EA5E9"/>
-    </linearGradient>
-  </defs>
-  <!-- antenna + spark -->
-  <line x1="60" y1="40" x2="60" y2="22" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
-  <path d="M60 4 Q60 16 72 16 Q60 16 60 28 Q60 16 48 16 Q60 16 60 4Z" fill="#FACC15"/>
-  <!-- triangle head -->
-  <polygon points="44,46 44,130 128,88" fill="url(#hg)" stroke="url(#hg)" stroke-width="20" stroke-linejoin="round"/>
-  <!-- visor -->
-  <rect x="46" y="72" width="56" height="30" rx="15" fill="#0F172A"/>
-  <circle cx="64" cy="87" r="6" fill="#5EEAD4"/><circle cx="86" cy="87" r="6" fill="#5EEAD4"/>
-  <circle cx="66" cy="85" r="2" fill="#fff"/><circle cx="88" cy="85" r="2" fill="#fff"/>
-  <!-- scissor-cut accent -->
-  <g transform="translate(118 128) rotate(-20)">
-    <circle cx="0" cy="0" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/>
-    <circle cx="18" cy="0" r="7" fill="none" stroke="currentColor" stroke-width="3.5"/>
-    <line x1="4" y1="-5" x2="22" y2="-24" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
-    <line x1="14" y1="-5" x2="-4" y2="-24" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
-  </g>
+</div><div class="tile d w60"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" data-w="960" data-h="240">
+<defs>
+  <linearGradient id="plai-rib" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="160" y2="0">
+    <stop offset="0" stop-color="#3FB8A9"/><stop offset="0.28" stop-color="#7FE3D5"/>
+    <stop offset="0.45" stop-color="#0C3532"/><stop offset="0.62" stop-color="#2FA597"/>
+    <stop offset="0.8" stop-color="#0F4A44"/><stop offset="1" stop-color="#A3F3E8"/>
+  </linearGradient>
+  <filter id="plai-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+    <feFlood flood-color="#5FD3C4" flood-opacity="0.55"/><feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<g transform="translate(0 0) scale(0.5)"><rect x="0.5" y="0.5" width="119" height="119" rx="28" fill="#0B1413" stroke="#5FD3C4" stroke-opacity="0.35"/>
+<ellipse cx="60" cy="50" rx="50" ry="15" fill="none" stroke="#5FD3C4" stroke-opacity="0.45" stroke-width="1.6" transform="rotate(-16 60 50)"/>
+<circle cx="106" cy="35" r="3" fill="#A3F3E8"/>
+<g transform="translate(-73 30) scale(1.05)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g>
+<g>
+  <rect x="22" y="90" width="28" height="5" rx="2.5" fill="#2FA597"/>
+  <rect x="54" y="90" width="16" height="5" rx="2.5" fill="#7FE3D5"/>
+  <rect x="74" y="90" width="24" height="5" rx="2.5" fill="#2FA597"/>
+  <rect x="61" y="84" width="2.4" height="17" rx="1.2" fill="#FFFFFF"/>
+  <path d="M58.2 82 H66.2 L62.2 86.5Z" fill="#FFFFFF"/>
+</g></g>
+<g transform="translate(72 4)"><g fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H40Q44 0 44 4V25Q44 29 40 29H11V39H0Z M11 10V19H33V10Z"/>
+<path transform="translate(49 0)" fill-rule="evenodd" d="M0 0H11V29H39V39H0Z"/></g>
+<g transform="translate(0 0)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g></g>
+<text x="73" y="57" font-family="Pretendard,Inter,'Helvetica Neue',Arial,sans-serif" font-size="8.2" font-weight="700" letter-spacing="3.1" fill="currentColor" opacity="0.65">SI EDITOR · BY PLAINOW.</text>
 </svg>
 </div></div>
-  </div>
-  <div class="row2">
-    <div class="tile light lock"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" width="560" height="160">
-  <defs>
-    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10B981"/><stop offset="1" stop-color="#0EA5E9"/>
-    </linearGradient>
-  </defs>
-  <line x1="60" y1="40" x2="60" y2="22" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
-  <path d="M60 4 Q60 16 72 16 Q60 16 60 28 Q60 16 48 16 Q60 16 60 4Z" fill="#FACC15"/>
-  <polygon points="44,46 44,130 128,88" fill="url(#hg)" stroke="url(#hg)" stroke-width="20" stroke-linejoin="round"/>
-  <rect x="46" y="72" width="56" height="30" rx="15" fill="#0F172A"/>
-  <circle cx="64" cy="87" r="6" fill="#5EEAD4"/><circle cx="86" cy="87" r="6" fill="#5EEAD4"/>
-  <circle cx="66" cy="85" r="2" fill="#fff"/><circle cx="88" cy="85" r="2" fill="#fff"/>
-  <text x="170" y="104" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-1" fill="currentColor">Eddy<tspan fill="#10B981">.</tspan></text>
-  <text x="174" y="136" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="currentColor" opacity="0.6">PLAYNOW AI EDIT BOT</text>
+<h2>APP ICON · AI 리본 + SI 궤도 + 편집 타임라인</h2><div class="grid"><div class="tile l ic"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" data-w="480" data-h="480">
+<defs>
+  <linearGradient id="plai-rib" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="160" y2="0">
+    <stop offset="0" stop-color="#3FB8A9"/><stop offset="0.28" stop-color="#7FE3D5"/>
+    <stop offset="0.45" stop-color="#0C3532"/><stop offset="0.62" stop-color="#2FA597"/>
+    <stop offset="0.8" stop-color="#0F4A44"/><stop offset="1" stop-color="#A3F3E8"/>
+  </linearGradient>
+  <filter id="plai-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+    <feFlood flood-color="#5FD3C4" flood-opacity="0.55"/><feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="0.5" y="0.5" width="119" height="119" rx="28" fill="#0B1413" stroke="#5FD3C4" stroke-opacity="0.35"/>
+<ellipse cx="60" cy="50" rx="50" ry="15" fill="none" stroke="#5FD3C4" stroke-opacity="0.45" stroke-width="1.6" transform="rotate(-16 60 50)"/>
+<circle cx="106" cy="35" r="3" fill="#A3F3E8"/>
+<g transform="translate(-73 30) scale(1.05)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g>
+<g>
+  <rect x="22" y="90" width="28" height="5" rx="2.5" fill="#2FA597"/>
+  <rect x="54" y="90" width="16" height="5" rx="2.5" fill="#7FE3D5"/>
+  <rect x="74" y="90" width="24" height="5" rx="2.5" fill="#2FA597"/>
+  <rect x="61" y="84" width="2.4" height="17" rx="1.2" fill="#FFFFFF"/>
+  <path d="M58.2 82 H66.2 L62.2 86.5Z" fill="#FFFFFF"/>
+</g>
 </svg>
-</div>
-    <div class="tile dark lock"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" width="560" height="160">
-  <defs>
-    <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10B981"/><stop offset="1" stop-color="#0EA5E9"/>
-    </linearGradient>
-  </defs>
-  <line x1="60" y1="40" x2="60" y2="22" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
-  <path d="M60 4 Q60 16 72 16 Q60 16 60 28 Q60 16 48 16 Q60 16 60 4Z" fill="#FACC15"/>
-  <polygon points="44,46 44,130 128,88" fill="url(#hg)" stroke="url(#hg)" stroke-width="20" stroke-linejoin="round"/>
-  <rect x="46" y="72" width="56" height="30" rx="15" fill="#0F172A"/>
-  <circle cx="64" cy="87" r="6" fill="#5EEAD4"/><circle cx="86" cy="87" r="6" fill="#5EEAD4"/>
-  <circle cx="66" cy="85" r="2" fill="#fff"/><circle cx="88" cy="85" r="2" fill="#fff"/>
-  <text x="170" y="104" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-1" fill="currentColor">Eddy<tspan fill="#10B981">.</tspan></text>
-  <text x="174" y="136" font-family="'Pretendard','Inter','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="currentColor" opacity="0.6">PLAYNOW AI EDIT BOT</text>
+</div><div class="tile d ic"><svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" data-w="480" data-h="480">
+<defs>
+  <linearGradient id="plai-rib" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="160" y2="0">
+    <stop offset="0" stop-color="#3FB8A9"/><stop offset="0.28" stop-color="#7FE3D5"/>
+    <stop offset="0.45" stop-color="#0C3532"/><stop offset="0.62" stop-color="#2FA597"/>
+    <stop offset="0.8" stop-color="#0F4A44"/><stop offset="1" stop-color="#A3F3E8"/>
+  </linearGradient>
+  <filter id="plai-glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+    <feFlood flood-color="#5FD3C4" flood-opacity="0.55"/><feComposite in2="b" operator="in" result="g"/>
+    <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="0.5" y="0.5" width="119" height="119" rx="28" fill="#0B1413" stroke="#5FD3C4" stroke-opacity="0.35"/>
+<ellipse cx="60" cy="50" rx="50" ry="15" fill="none" stroke="#5FD3C4" stroke-opacity="0.45" stroke-width="1.6" transform="rotate(-16 60 50)"/>
+<circle cx="106" cy="35" r="3" fill="#A3F3E8"/>
+<g transform="translate(-73 30) scale(1.05)"><g filter="url(#plai-glow)">
+  <path d="M100 33.5 L117.5 9 Q122 3 126.5 9 L138 28 C141 35 144 34 146.5 34 C151 34 153.5 31 153.5 26 V0"
+        fill="none" stroke="url(#plai-rib)" stroke-width="11" stroke-linecap="round"/>
+  <rect x="148" y="0" width="11" height="3" fill="url(#plai-rib)"/>
+  <path d="M118 25 Q118.6 30.4 122.5 31 Q118.6 31.6 118 37 Q117.4 31.6 113.5 31 Q117.4 30.4 118 25Z" fill="#3DB5A6"/>
+</g></g>
+<g>
+  <rect x="22" y="90" width="28" height="5" rx="2.5" fill="#2FA597"/>
+  <rect x="54" y="90" width="16" height="5" rx="2.5" fill="#7FE3D5"/>
+  <rect x="74" y="90" width="24" height="5" rx="2.5" fill="#2FA597"/>
+  <rect x="61" y="84" width="2.4" height="17" rx="1.2" fill="#FFFFFF"/>
+  <path d="M58.2 82 H66.2 L62.2 86.5Z" fill="#FFFFFF"/>
+</g>
 </svg>
-</div>
-  </div>
-  <p class="desc">재생 버튼 모양 머리에 바이저 눈과 AI 안테나를 단 편집봇 캐릭터. 가위로 ‘컷 편집’을 상징합니다. 사내 슬랙봇·카톡봇처럼 친근하게 부를 이름이 필요할 때 좋습니다.</p>
-  <div class="swatches"><span class="sw" style="background:#10B981"><i>#10B981</i></span><span class="sw" style="background:#0EA5E9"><i>#0EA5E9</i></span><span class="sw" style="background:#FACC15"><i>#FACC15</i></span></div>
-</section></main>
-<p class="note">※ 실제 플레이나우 로고 파일이 저장소에 없어 ▶ 재생 버튼을 브랜드 모티프로 재해석했습니다. 정식 로고(SVG/AI)와 브랜드 컬러를 주시면 그 형태·색에 맞춰 다시 맞추겠습니다. 모든 로고는 SVG 벡터라 크기 제한 없이 사용 가능합니다.</p>
-</body></html>
+</div></div>
+<h2>KEY COLOR (PLAINOW 로고에서 추출)</h2><div class="sw">
+<div style="background:#0C3532">#0C3532</div><div style="background:#0F4A44">#0F4A44</div><div style="background:#2FA597">#2FA597</div><div style="background:#3FB8A9">#3FB8A9</div><div style="background:#7FE3D5;color:#0B1413">#7FE3D5</div><div style="background:#A3F3E8;color:#0B1413">#A3F3E8</div></div>
+<p class="note">※ 로고 글자 모양은 전달받은 PNG(저해상도)를 측정해서 벡터로 다시 그린 것입니다. 피그마 원본 SVG를 받으면 PL·AI 부분을 원본 패스로 바꿔 완전히 똑같게 맞출 수 있습니다.</p>
+</div></body></html>
